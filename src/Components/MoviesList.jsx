@@ -9,7 +9,6 @@ class MoviesList extends Component {
 
     fetchMovies = () => {
         console.log("Ottenimento dei film");
-        // fetch("http://www.omdbapi.com/?apikey=9570e6e6&s=harry%20potter");
         fetch(
             `http://www.omdbapi.com/?apikey=9570e6e6&s=${this.props.movieSearch}`,
             {
