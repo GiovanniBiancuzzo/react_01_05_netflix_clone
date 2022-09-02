@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faSearch, faUser } from "@fortawesome/free-solid-svg-icons";
 
-const NavbarComponent = (props) => (
+const NavbarComponent = () => (
     <Navbar
         collapseOnSelect
         expand="lg"
@@ -14,7 +14,7 @@ const NavbarComponent = (props) => (
                 src="/public/assets/logo.png"
                 width="100px"
                 height="50px"
-                // className="d-inline-block align-top"
+                className="d-inline-block align-top"
                 alt="Netflix logo"
             />
         </Navbar.Brand>
