@@ -11,7 +11,7 @@ const NavbarComponent = () => (
     >
         <Navbar.Brand href="https://www.netflix.com">
             <img
-                src="/public/assets/logo.png"
+                src="/public/logo.png"
                 width="100px"
                 height="50px"
                 className="d-inline-block align-top"
